@@ -5,6 +5,9 @@ request.onload = function()
 {
     if (request.status == 200) {
      let a = JSON.parse(request.responseText);
+     a.map((b)=> {
+         console.log(b.flags.svg)
+     })
     }
     else {
         request.onerror = function() 
