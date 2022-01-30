@@ -12,5 +12,8 @@ request.onload = function()
         })
         a.map((d)=> {
             console.log(d.subregion);
-        })
+         })
+         a.map((e)=> {
+            console.log(e.population);
+         })
 }
