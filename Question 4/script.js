@@ -12,16 +12,15 @@ console.log(d);
 var myvar = 10;
 console.log(myvar);
 // 3. Declare variables to store your first name, last name, marital status, country and age in multiple lines
-    let firstName = "Mohamed";
-    let lastName = "Ali";
-    let maritalStatus = "Married";
-    let country = "India";
-    let age = 34;
-    console.log(firstName);
-    console.log(lastName);
-    console.log(maritalStatus);
-    console.log(country);
-    console.log(age);
-// 4. Declare variables to store your first name, last name, marital status, country and age in a single line
+    let student = {
+    firstName: "Mohamed",
+    lastName: "Ali",
+    maritalStatus: "Married",
+    country: "India",
+    age: 34
+};
+for (i in student) 
+console.log(student[i]);
+   // 4. Declare variables to store your first name, last name, marital status, country and age in a single line
 let array = [firstName = "Mohamed", lastName = "Ali", maritalStatus = "Married", country = "India", age = 34];
-console.log(array);
+console.log(array.join(" "));
